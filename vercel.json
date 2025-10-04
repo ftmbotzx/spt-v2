@@ -1,7 +1,5 @@
 {
-  "functions": {
-    "api/ftm.py": {
-      "runtime": "python3.11"
-    }
-  }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/ftm" }
+  ]
 }
